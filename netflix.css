@@ -1,0 +1,94 @@
+body{
+    background-color: rgba(0, 0, 0, 0.89);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0%;
+}
+.np{
+    background-image:url("https://cdn.vox-cdn.com/thumbor/hbvKnqJ7aEt3aMsvpKicj73Let8=/0x0:1101x701/1200x800/filters:focal(67x205:243x381)/cdn.vox-cdn.com/uploads/chorus_image/image/53737885/Screen_Shot_2017_03_16_at_11.53.09_AM.0.png") ;
+   height: 400px;
+   width: 100%;
+   overflow: hidden;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+   padding: px;
+ 
+   color: rgb(248, 223, 0);
+   
+   
+}
+.np> img{
+    margin: 1%;
+    
+}
+.neto{
+    display: flex;
+    overflow-y: hidden;
+    scrollbar-width: none;
+}
+.neto> img:hover{
+    transform: scale(0.9);
+}
+
+.neto::-webkit-scrollbar{
+    display: none;
+}
+.neto >img {
+    margin: 5px;
+    transition: transform 0.2;
+}
+.treo{
+    display: flex;
+    overflow-y: hidden;
+    scrollbar-width: none;
+}
+.treo > img{
+    width: 200px;
+    transition: transfom 0.2s;
+}
+.treo::-webkit-scrollbar{
+    display: none;
+}
+.treo > img:hover{
+    transform: scale(1.1);
+
+}
+.treo > img{
+    margin: 8px;
+}
+.popo{
+    display: flex;
+    overflow-y: hidden;
+    scrollbar-width: none;
+}
+.popo> img:hover{
+    transform: scale(0.89);}
+.popo > img{
+    width: 200px;
+    margin: 7px;
+    transition: transform 0.9;
+}
+.popo::-webkit-scrollbar{
+        display: none;}
+        .cw{
+            display: flex;
+    overflow-y: hidden;
+    scrollbar-width: none;
+
+        }
+        .cw > img{
+            width: 200px;
+            margin: 7px;
+            transition: transform 0.9;
+        }
+        .cw::-webkit-scrollbar{
+            display: none;}
+
+   
+            .cw> img:hover{
+                transform: scale(1.3);}
+
+
+
+ 
